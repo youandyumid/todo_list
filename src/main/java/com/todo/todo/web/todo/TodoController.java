@@ -1,8 +1,8 @@
-package com.todo.web.todo;
+package com.todo.todo.web.todo;
 
-import com.todo.domain.todo.Todo;
-import com.todo.domain.todo.TodoDto;
-import com.todo.util.WebConverter;
+import com.todo.todo.domain.todo.Todo;
+import com.todo.todo.domain.todo.TodoDto;
+import com.todo.todo.util.WebConverter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Description;

@@ -1,11 +1,11 @@
-package com.todo.web.todo;
+package com.todo.todo.web.todo;
 
-import com.todo.domain.member.Member;
-import com.todo.domain.member.MemberRepository;
-import com.todo.domain.todo.Todo;
-import com.todo.domain.todo.TodoDto;
-import com.todo.domain.todo.TodoRepository;
-import com.todo.util.MemberInfo;
+import com.todo.todo.domain.member.Member;
+import com.todo.todo.domain.member.MemberRepository;
+import com.todo.todo.domain.todo.Todo;
+import com.todo.todo.domain.todo.TodoDto;
+import com.todo.todo.domain.todo.TodoRepository;
+import com.todo.todo.util.MemberInfo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

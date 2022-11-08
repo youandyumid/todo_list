@@ -9,10 +9,8 @@ import org.springframework.context.annotation.FilterType;
 
 import javax.persistence.Entity;
 
-@SpringBootApplication(scanBasePackages = "com.todo.domain.*" )
-@EntityScan("com.todo.domain.*")
-@ComponentScan(basePackages = "com.todo.domain.*"
-)
+@SpringBootApplication(scanBasePackages = "com.todo" )
+@EntityScan("com.todo")
 @RequiredArgsConstructor
 public class TodoApplication {
 

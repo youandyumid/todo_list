@@ -1,4 +1,4 @@
-package com.todo.util;
+package com.todo.todo.util;
 
 import lombok.Getter;
 import lombok.Setter;

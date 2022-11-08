@@ -1,15 +1,14 @@
-package com.todo.web.member;
+package com.todo.todo.web.member;
 
-import com.todo.domain.member.Member;
-import com.todo.domain.member.MemberDto;
-import com.todo.domain.member.MemberRepository;
-import com.todo.util.MemberInfo;
+import com.todo.todo.domain.member.Member;
+import com.todo.todo.domain.member.MemberDto;
+import com.todo.todo.domain.member.MemberRepository;
+import com.todo.todo.util.MemberInfo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.annotation.Resource;
 import javax.validation.ValidationException;
 
 @Service

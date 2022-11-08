@@ -1,4 +1,4 @@
-package com.todo.domain.todo;
+package com.todo.todo.domain.todo;
 
 import jdk.jfr.Description;
 import lombok.Data;

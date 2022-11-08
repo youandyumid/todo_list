@@ -1,4 +1,4 @@
-package com.todo.domain.todo;
+package com.todo.todo.domain.todo;
 
 public enum TodoStatus {
     todo("할 일"),

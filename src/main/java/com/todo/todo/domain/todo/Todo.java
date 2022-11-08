@@ -1,6 +1,6 @@
-package com.todo.domain.todo;
+package com.todo.todo.domain.todo;
 
-import com.todo.domain.member.Member;
+import com.todo.todo.domain.member.Member;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

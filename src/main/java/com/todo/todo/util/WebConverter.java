@@ -1,4 +1,4 @@
-package com.todo.util;
+package com.todo.todo.util;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
