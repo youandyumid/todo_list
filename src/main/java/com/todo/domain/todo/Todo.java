@@ -2,6 +2,7 @@ package com.todo.domain.todo;
 
 import com.todo.domain.member.Member;
 import lombok.Getter;
+import lombok.Setter;
 import lombok.ToString;
 
 import javax.persistence.*;
@@ -9,6 +10,7 @@ import java.time.LocalDateTime;
 
 @ToString
 @Getter
+@Setter
 @Table(name = "todo")
 @Entity
 public class Todo {
@@ -28,8 +30,10 @@ public class Todo {
     private LocalDateTime reqTime;
 
     @Column(nullable = false)
-    private LocalDateTime updateTime;
+    private Boolean actYn;
 
+    @Transient
+    private boolean isNew = false;
     //==================================================== 연관관계 ======================================================
     @ToString.Exclude
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
